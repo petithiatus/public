@@ -23,7 +23,12 @@
     }
 
     .tz-gallery .thumbnail:hover {
-      transform: translateY(-10px) scale(1.02);
+      color: rgb(244, 254, 234, .3)
+    }
+
+    .tz-gallery .lightbox {
+      display: flex;
+      height: 240px;
     }
 
     .baguetteBox-button {
@@ -37,8 +42,10 @@
     .thumbnail a>img,
     .thumbnail>img {
       display: block;
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+      object-fit:cover;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 
